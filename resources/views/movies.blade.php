@@ -9,11 +9,13 @@
     <body>
         <ul>
             @foreach ($movies as $movie)
-            <li>{{$movie->title}}</li>
-            <li>{{$movie->plot}}</li>
-                
+            <li>
+                <h2>{{$movie->title}}</h2>
+                <h4>{{$movie->author}}</h4>
+                <h4>{{$movie->genre}}</h4>
+                <p>{{$movie->plot}}</p>
+            </li>                           
             @endforeach
-        </ul>
-        
+        </ul>        
     </body>
 </html>
