@@ -11,9 +11,8 @@
             @foreach ($movies as $movie)
             <li>
                 <h2>{{$movie->title}}</h2>
-                <h4>{{$movie->author}}</h4>
                 <h4>{{$movie->genre}}</h4>
-                <p>{{$movie->plot}}</p>                
+                <a href="{{route('movies.show', [ 'movie' => $movie->id ])}}">Dettaglio Film</a>               
             </li>                      
             @endforeach            
         </ul>        
