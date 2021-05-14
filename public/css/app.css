@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: sandybrown;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.head {
+  text-align: center;
+  padding: 15px;
+}
+
+.movie-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+.movie-box .movie-card {
+  text-align: center;
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.movie {
+  width: 1200px;
+  margin: 0 auto;
+}
+.movie p {
+  line-height: 1.5;
+}
+
+.button {
+  padding: 15px;
+  text-align: center;
+}

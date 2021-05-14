@@ -4,17 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <title>Movies</title>
     </head>
     <body>
-        <ul>
-            @foreach ($movies as $movie)
-            <li>
-                <h2>{{$movie->title}}</h2>
-                <h4>{{$movie->genre}}</h4>
-                <a href="{{route('movies.show', [ 'movie' => $movie->id ])}}">Dettaglio Film</a>               
-            </li>                      
-            @endforeach            
-        </ul>        
+        <header>
+            <div class="head">
+                <h1>Tutti i Film</h1>
+            </div>
+        </header>
+        <div class="movie-box">
+            @foreach ($movies as $movie)  
+                <div class="movie-card">                          
+                    <h2>{{$movie->title}}</h2>
+                    <a class="btn" href="{{route('movies.show', [ 'movie' => $movie->id ])}}">Dettaglio Film</a>                              
+                </div>
+            @endforeach
+        </div>            
     </body>
 </html>
