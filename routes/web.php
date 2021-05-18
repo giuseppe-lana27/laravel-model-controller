@@ -17,4 +17,8 @@ Route::resource('movies', 'MovieController');
 
 Route::get('/', 'MovieController@index');
 Route::get('/movies/{id}', 'MovieController@show')->name('movie');
+Route::get('/movies/{id}', 'MovieController@update')->name('update');
+Route::get('/movies/{id}', 'MovieController@show')->name('movie');
+Route::get('/movies/{id}', 'MovieController@show')->name('movie');
+
 

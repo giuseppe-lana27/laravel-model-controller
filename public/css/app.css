@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10005,4 +10006,7 @@ h3 {
 .head {
   text-align: center;
   padding: 65px;
+}
+.head h1 {
+  color: #6574cd;
 }
