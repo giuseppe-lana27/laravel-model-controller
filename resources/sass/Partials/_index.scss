@@ -1,12 +1,6 @@
-.movie-box{
+.actions{
     display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 0 auto;
-    .movie-card{
-        text-align: center;
-        background-color: #dcdcdc;
-        border-radius: 20px;
-        padding: 10px;
-    }    
+    a{
+        margin-right: 10px;
+    }
 }

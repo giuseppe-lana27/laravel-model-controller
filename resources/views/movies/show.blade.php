@@ -8,14 +8,15 @@
         <title>Movie</title>
     </head>
     <body>        
-        <div class="movie">
+        <div class="movie container">
             <h1>{{$movie->title}}</h1>  
-            <h4>{{$movie->author}}</h4>
-            <h4>{{$movie->genre}}</h4>
-            <p>{{$movie->plot}}</p>
+            <h4 class="mt-3">{{$movie->author}}</h4>
+            <h4 class="mt-3">{{$movie->genre}}</h4>
+            <p class="mt-3">{{$movie->plot}}</p>
+            <div class="button mt-5">
+                <a class="btn btn-primary" href="{{route('movies.index')}}">Torna all'home page</a>
+            </div>
         </div>
-        <div class="button">
-            <a class="btn" href="{{route('movies.index')}}">Torna all'home page</a>
-        </div>
+        
     </body>
 </html>
