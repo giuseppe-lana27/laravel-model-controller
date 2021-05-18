@@ -15,7 +15,7 @@
 			<th scope="col">Titolo</th>			
 			<th scope="col">Generi</th>
 			<th scope="col">Autore</th>
-			<th scope="col">Azioni</th>
+			<th scope="col" class="text-center">Azioni</th>
 		</tr>
 	</thead>
 	<tbody>

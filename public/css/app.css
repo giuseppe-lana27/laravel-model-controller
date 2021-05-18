@@ -10004,6 +10004,7 @@ h3 {
 }
 .actions {
   display: flex;
+  justify-content: center;
 }
 .actions a {
   margin-right: 10px;
