@@ -25,7 +25,7 @@
 		</div>		
 		<div class="form-group">
 			<label for="genre">Generi</label>
-			<input type="text" class="form-control" id="genres" name="genre" placeholder="Generi" value="{{old('genre') ? old('genres') : $movie->genres}}">
+			<input type="text" class="form-control" id="genres" name="genre" placeholder="Generi" value="{{old('genre') ? old('genre') : $movie->genre}}">
 		</div>
         <div class="form-group">
 			<label for="author">Regista</label>
